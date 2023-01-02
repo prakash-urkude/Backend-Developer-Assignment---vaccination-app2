@@ -9,9 +9,6 @@ const centerModel = require("../models/centerModel")
 const { isVaildPass, isValidadhar, isEmpty, isValidName, isvalidSlot, isValidPhone, isValidBody, isValidpincode, isValidAge, isvalidQuantity } = validator
 
 
-
-
-
 const createUser = async function (req, res) {
     try {
 
